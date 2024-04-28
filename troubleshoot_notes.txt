@@ -8,6 +8,13 @@ pillow related issue. yolov9 is using deprecated code. update yolov9/utils/plot.
 > _, _, w, h = self.font.getbbox(label) 
 
 =====================================================================================
+* AttributeError: 'list' object has no attribute 'device'
+stems from yolov9 and gelan model difference. update yolov9/detect.py: before line 102 (pred = non_max_suppression(...))
+> pred = pred[0][1] if isinstance(pred[0], list) else pred[0]
+
+=====================================================================================
+
+
 
 
 
