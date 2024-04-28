@@ -1,0 +1,12 @@
+image/video Inference:
+python detect.py --source data\images\horses.jpg --img 640 --device 0 --weights weights\gelan-e.pt
+python detect.py --source data\videos\MotionCtrl_dog_0.mp4 --img 640 --device 0 --weights weights\yolov9-c-converted.pt
+
+===================================================================================================================
+
+
+
+
+
+
+
