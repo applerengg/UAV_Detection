@@ -1,8 +1,19 @@
-image/video Inference:
-python detect.py --source data\images\horses.jpg --img 640 --device 0 --weights weights\gelan-e.pt
-python detect.py --source data\videos\MotionCtrl_dog_0.mp4 --img 640 --device 0 --weights weights\yolov9-c-converted.pt
+- Image / Video Inference:
+
+> python detect.py --source data\images\horses.jpg --img 640 --device 0 --weights weights\gelan-e.pt
+> python detect.py --source data\videos\MotionCtrl_dog_0.mp4 --img 640 --device 0 --weights weights\yolov9-c-converted.pt
 
 ===================================================================================================================
+- Train
+
+> wandb disabled
+> python train_dual.py --workers 8 --device 0 --batch 8 --data data\uav_dummy.yaml --img 640 --cfg models/detect/yolov9-c.yaml --weights '' --name yolov9-c_uav_dummy --hyp hyp.scratch-high.yaml --min-items 0 --epochs 5 --close-mosaic 15
+
+
+
+
+
+
 
 
 
