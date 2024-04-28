@@ -1,0 +1,13 @@
+* RequestsDependencyWarning: urllib3
+upgrade requests
+> pip install requests
+
+=====================================================================================
+* AttributeError: 'FreeTypeFont' object has no attribute 'getsize'
+pillow related issue. yolov9 is using deprecated code. update yolov9/utils/plot.py:line 86
+> _, _, w, h = self.font.getbbox(label) 
+
+=====================================================================================
+
+
+
