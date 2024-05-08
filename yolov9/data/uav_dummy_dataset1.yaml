@@ -1,9 +1,6 @@
+names:
+- UAV
+nc: 1
 test: ../datasets/dummy_dataset1/test/images/
 train: ../datasets/dummy_dataset1/train/images/
 val: ../datasets/dummy_dataset1/valid/images/
-
-# Classes
-names:
-  0: UAV
-
-

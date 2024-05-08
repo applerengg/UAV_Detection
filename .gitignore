@@ -2,8 +2,8 @@
 # weights / checkpoint files
 *.pt
 yolov9/runs/
-
-
+yolov9/datasets/
+datasets/
 
 ##################################################
 
