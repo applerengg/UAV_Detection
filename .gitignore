@@ -5,6 +5,7 @@ yolov9/runs/
 yolov9/datasets/
 datasets/*
 !datasets/split_dataset.py
+!datasets/augment_dataset.py
 
 ##################################################
 
