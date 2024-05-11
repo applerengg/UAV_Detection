@@ -3,7 +3,8 @@
 *.pt
 yolov9/runs/
 yolov9/datasets/
-datasets/
+datasets/*
+!datasets/split_dataset.py
 
 ##################################################
 
