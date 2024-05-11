@@ -1,0 +1,6 @@
+names:
+- UAV
+nc: 1
+test: ../datasets/combinedset12/test/images/
+train: ../datasets/combinedset12/train/images/
+val: ../datasets/combinedset12/valid/images/
