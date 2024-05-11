@@ -22,8 +22,8 @@ val_end     = train_end + round(NUM_IMG * RATIO_VALID)
 test_end    = NUM_IMG
 
 for s in ["train", "valid", "test"]:
-    os.makedirs(f"{dataset_folder}/{s}/images")
-    os.makedirs(f"{dataset_folder}/{s}/labels")
+    os.makedirs(f"{dataset_folder}/{s}/images", exist_ok=True)
+    os.makedirs(f"{dataset_folder}/{s}/labels", exist_ok=True)
 
 for i, f_label in enumerate(filenames):
     f_stem  = Path(f_label).stem
