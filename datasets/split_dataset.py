@@ -8,9 +8,9 @@ RATIO_TRAIN = 0.80
 RATIO_VALID = 0.10
 RATIO_TEST  = 0.10
 
-dataset_folder = "uav_dataset"
+dataset_folder = "uav_dataset_gokboru"
 label_ext      = ".txt" 
-image_ext      = ".jpg" # ".png"
+image_ext      = ".png" # ".png"
 
 #-- assuming all images and label files are inside the "all" folder together
 filenames   = glob.glob(f"{dataset_folder}/all/*{label_ext}")

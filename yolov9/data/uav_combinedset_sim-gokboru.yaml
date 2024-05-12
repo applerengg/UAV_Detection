@@ -1,0 +1,6 @@
+names:
+- UAV
+nc: 1
+test: ../datasets/combinedset_sim-gokboru/test/images/
+train: ../datasets/combinedset_sim-gokboru/train/images/
+val: ../datasets/combinedset_sim-gokboru/valid/images/
