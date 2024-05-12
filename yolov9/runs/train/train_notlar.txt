@@ -1,0 +1,14 @@
+3060ti (8gb), idle (0.8-1.5gb used while idle):
+
+# freeze 10, batch 8, dataset_size 1956, img_res 480, epoch 30:
+~38 min, ~6.5gb vram (total)
+
+# freeze 0, batch 8, dataset_size 1956, img_res 480, epoch 30:
+~45 min, ~7.5gb vram (total)
+
+# freeze 10, batch 8, dataset_size 613, img_res 480, epoch 30:
+~17 min, ~??? vram (total)
+
+# freeze 10, batch 8, dataset_size 720, img_res 640, epoch 30:
+~21 min, ~7.8 vram (total)
+

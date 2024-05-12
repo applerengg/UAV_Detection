@@ -1,8 +1,15 @@
 
 # weights / checkpoint files
 *.pt
-yolov9/runs/
+
+# yolov9/runs/*
+yolov9/runs/train/*
+yolov9/runs/detect/*
+yolov9/runs/val/*
+!yolov9/runs/train/train_notlar.txt
+
 yolov9/datasets/
+
 datasets/*
 !datasets/split_dataset.py
 !datasets/augment_dataset.py
