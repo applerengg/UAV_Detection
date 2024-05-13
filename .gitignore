@@ -13,6 +13,9 @@ yolov9/datasets/
 datasets/*
 !datasets/split_dataset.py
 !datasets/augment_dataset.py
+!datasets/uav_dataloader.py
+!datasets/dataloader_test.py
+!datasets/EDA.ipynb
 
 ##################################################
 
