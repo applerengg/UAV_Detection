@@ -16,6 +16,7 @@ datasets/*
 !datasets/uav_dataloader.py
 !datasets/dataloader_test.py
 !datasets/EDA.ipynb
+!datasets/public_datasets.txt
 
 ##################################################
 

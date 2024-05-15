@@ -1,0 +1,11 @@
+set1
+1103 img, YOLO annot, fixed wing
+https://universe.roboflow.com/harun-uzay-q24vv/fixed-wing-uav-dataset
+
+set2
+1440 img, YOLO annot, fixed wing
+https://universe.roboflow.com/savaan-insansz-hava-arac-9xwvl/patlican_435
+
+
+
+
