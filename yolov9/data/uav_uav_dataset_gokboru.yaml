@@ -1,0 +1,6 @@
+names:
+- UAV
+nc: 1
+test: ../datasets/uav_dataset_gokboru/test/images/
+train: ../datasets/uav_dataset_gokboru/train/images/
+val: ../datasets/uav_dataset_gokboru/test_all/images/
