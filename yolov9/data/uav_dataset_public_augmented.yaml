@@ -1,0 +1,6 @@
+names:
+- UAV
+nc: 1
+test: ../datasets/uav_dataset_public_augmented/test/images/
+train: ../datasets/uav_dataset_public_augmented/train/images/
+val: ../datasets/uav_dataset_public_augmented/valid/images/
